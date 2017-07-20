@@ -13,7 +13,6 @@ var ToDoApp = React.createClass({
       showCompleted: false,
       searchText: '',
       todos: ToDoAPI.getToDos()
-
     }
   },
   componentDidUpdate: function() {
